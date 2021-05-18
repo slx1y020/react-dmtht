@@ -1,0 +1,35 @@
+.node{
+    height: calc(100vh - 140px);
+    background: white;
+}
+.node .nodeLeft{
+    height: calc(100vh - 150px);
+    overflow: auto;
+}
+.node .nodeLeft::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px !important;     /*高宽分别对应横竖滚动条的尺寸*/
+    background-color: #fff;
+  }
+  
+  /*定义滑块 内阴影+圆角*/
+.node .nodeLeft::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #999;
+  }
+  .node .nodeRight{
+    height: calc(100vh - 130px);
+    padding: 24px;
+    overflow: auto;
+}
+  .node .nodeRight::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px !important;     /*高宽分别对应横竖滚动条的尺寸*/
+    background-color: #fff;
+  }
+  
+  /*定义滑块 内阴影+圆角*/
+.node .nodeRight::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #999;
+  }
